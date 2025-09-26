@@ -1,4 +1,3 @@
-# pg-pv-pvc.yaml
 apiVersion: v1
 kind: PersistentVolume
 metadata:
@@ -9,7 +8,7 @@ spec:
   accessModes:
     - ReadWriteOnce
   hostPath:
-    path: /home/mateus/pgdata-trabalho  # altere para o caminho que deseja persistir os dados
+    path: /home/mateus/pgdata-trabalho
 ---
 apiVersion: v1
 kind: PersistentVolumeClaim
