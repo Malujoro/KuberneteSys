@@ -1,0 +1,13 @@
+NAME                 REFERENCE                   TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+mercadinho-api-hpa   Deployment/mercadinho-api   cpu: <unknown>/50%   2         5         2          21h
+mercadinho-api-hpa   Deployment/mercadinho-api   cpu: 2%/50%          2         5         2          21h
+mercadinho-api-hpa   Deployment/mercadinho-api   cpu: 1%/50%          2         5         2          21h
+mercadinho-api-hpa   Deployment/mercadinho-api   cpu: 1%/50%          2         5         2          21h
+mercadinho-api-hpa   Deployment/mercadinho-api   cpu: 18%/50%         2         5         2          21h
+mercadinho-api-hpa   Deployment/mercadinho-api   cpu: 105%/50%        2         5         2          21h
+mercadinho-api-hpa   Deployment/mercadinho-api   cpu: 105%/50%        2         5         4          21h
+mercadinho-api-hpa   Deployment/mercadinho-api   cpu: 105%/50%        2         5         5          21h
+mercadinho-api-hpa   Deployment/mercadinho-api   cpu: 118%/50%        2         5         5          21h
+mercadinho-api-hpa   Deployment/mercadinho-api   cpu: 1%/50%          2         5         5          21h
+mercadinho-api-hpa   Deployment/mercadinho-api   cpu: 1%/50%          2         5         5          21h
+mercadinho-api-hpa   Deployment/mercadinho-api   cpu: 1%/50%          2         5         2          21h
